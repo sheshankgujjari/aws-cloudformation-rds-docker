@@ -26,15 +26,15 @@ Automated way to create EC2, RDS instance and deploy docker container with postg
 
 
 # SSH to server and run all the below commands one by one
-ssh -i location-to-pem-key ubuntu@publicipaddress
-sudo su
-docker ps
-docker exec -it containerid bash
-apt-get install postgresql-client
-psql postgresql://postgres:postgres@localhost:5432/postgres
-select schema_name from information_schema.schemata;
-press ctrl + z
-kill %%
+- ssh -i location-to-pem-key ubuntu@publicipaddress
+- sudo su
+- docker ps
+- docker exec -it containerid bash
+- apt-get install postgresql-client
+- psql postgresql://postgres:postgres@localhost:5432/postgres
+- select schema_name from information_schema.schemata;
+- press ctrl + z
+- kill %%
 
 
 
