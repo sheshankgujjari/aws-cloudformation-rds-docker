@@ -37,6 +37,10 @@ Automated way to create EC2, RDS instance and deploy docker container with postg
 - kill %%
 
 
+# Post activities on your local machine
+- unset DOCKER_HOST
+
+
 
 
 
