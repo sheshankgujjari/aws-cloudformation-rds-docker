@@ -1,0 +1,11 @@
+version: '2'
+services:
+  app:
+    image: postgres
+    ports:
+      - "80:3000"
+    environment:
+      DB_USER: postgres
+      DB_NAME: postgres
+      DB_PASSWORD: postgres
+      DB_HOST: pdxj7t4360qlce.cp9u51nv1qff.us-west-2.rds.amazonaws.com
